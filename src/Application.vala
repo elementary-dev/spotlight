@@ -423,7 +423,7 @@ public class SpotlightWindow : Window {
 
 static int main (string[] args) {
     Gtk.init (ref args);
-    Gtk.Application app = new Gtk.Application ("dk.krishenriksen.spotlight", GLib.ApplicationFlags.FLAGS_NONE);
+    Gtk.Application app = new Gtk.Application ("com.github.elementary-dev.spotlight", GLib.ApplicationFlags.FLAGS_NONE);
 
     // check for light or dark theme
     File iraspbian = File.new_for_path (GLib.Environment.get_variable ("HOME") + "/.iraspbian-dark.twid");
