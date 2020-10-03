@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Spotlight
+GenericName=Spotlight
+Comment=Use this as a template for your project
+Exec=com.github.elementary-dev.spotlight

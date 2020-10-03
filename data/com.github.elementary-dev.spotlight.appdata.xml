@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 Kris Henriksen <elementary@krishenriksen.dk> -->
+<component type="desktop">
+    <id>com.github.elementary-dev.spotlight.desktop</id>
+    <metadata_license>CC0</metadata_license>
+    <project_license>GPL-3.0+</project_license>
+    <name>Spotlight</name>
+    <summary>OSX style app finder.</summary>
+    <description>
+        <p>Open `keyboard-settings` and go to Shortcuts. Click Add and enter `com.github.elementary-dev.spotlight` in the Command field. Now click OK and choose your keyboard shortcut to open Spotlight.</p>
+    </description>
+    <provides>
+        <binary>com.github.elementary-dev.spotlight</binary>
+    </provides>
+    ​<releases>
+        <release version="1.0.0" date="2020-03-10">
+    ​        <description>
+    ​            <p>Main release.</p>
+​            </description>
+        </release>
+    </releases>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/elementary-dev/spotlight/master/data/screenshot.png</image>
+        </screenshot>
+    </screenshots>
+    <developer_name>Kris Henriksen</developer_name>
+    <url type="homepage">https://krishenriksen.dk</url>
+    <url type="bugtracker">https://github.com/elementary-dev/spotlight/issues</url>
+    <custom>
+        <!-- elementary AppCenter specific values -->
+        <value key="x-appcenter-color-primary">#d1ff82</value>
+        <value key="x-appcenter-color-primary-text">#333</value>
+        <!-- Suggested price in USD; just a suggestion, NOT a minimum. -->
+        <value key="x-appcenter-suggested-price">14.95</value>
+    </custom>
+</component>
