@@ -1,7 +1,7 @@
 project(
     'spotlight',
     'vala', 'c',
-    version: '0.0.3',
+    version: '1.0.0',
     meson_version: '>=0.45.0'
 )
 
