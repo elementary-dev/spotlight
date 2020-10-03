@@ -1,5 +1,5 @@
 project(
-    'spotlight',
+    'com.github.elementary-dev.spotlight',
     'vala', 'c',
     version: '1.0.0',
     meson_version: '>=0.45.0'
@@ -63,6 +63,20 @@ executable(
     vala_args: SpotlightValaArgs,
     include_directories: config_inc_dir,
     install: true
+)
+
+# Install our .desktop file so the Applications Menu will see it
+install_data(
+    join_paths('data', 'com.github.elementary-dev.spotlight.desktop'),
+    install_dir: join_paths(get_option('datadir'), 'applications'),
+    rename: meson.project_name() + '.desktop'
+)
+
+# Install our .appdata.xml file so AppCenter will see it
+install_data(
+    join_paths('data', 'com.github.elementary-dev.spotlight.appdata.xml'),
+    install_dir: join_paths(get_option('datadir'), 'metainfo'),
+    rename: meson.project_name() + '.appdata.xml'
 )
 
 # Install CSS file
