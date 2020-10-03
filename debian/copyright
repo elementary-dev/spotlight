@@ -1,0 +1,7 @@
+Format: https://dep.debian.net/deps/dep5
+Upstream-Name: spotlight
+Source: https://github.com/elementary-dev/spotlight
+
+Files: src/* data/* debian/*
+Copyright: 2020 Kris Henriksen <elementary@krishenriksen.dk>
+License: GPL-3.0+

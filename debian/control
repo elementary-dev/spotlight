@@ -1,0 +1,14 @@
+Source: com.github.elementary-dev.spotlight
+Section: x11
+Priority: optional
+Maintainer: Kris Henriksen <elementary@krishenriksen.dk>
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 9),
+               libgtk-3-dev,
+               valac (>= 0.40.0)
+Standards-Version: 3.9.3
+
+Package: com.github.elementary-dev.spotlight
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Spotlight Linux: OSX style app finder.
